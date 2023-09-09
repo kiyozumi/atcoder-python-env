@@ -2,9 +2,7 @@ version: '3'
 
 services:
   atcoder-python-env:
-    build : ./
-    image: atcoder-python-env
-#    image: kiyozumi/atcoder-python-env
+    image: kiyozumi/atcoder-python-env
     container_name: atcoder-python-env-container
     hostname: atcoder-python-env
     volumes:
